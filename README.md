@@ -23,11 +23,11 @@ Clone the Repository:
 
 bash
 Copy code
-git clone [https://github.com/yourusername/server-load-balancer.git](https://github.com/AnkitaMahajan1/Server-Load-Balancer.git)
+git clone [[https://github.com/yourusername/server-load-balancer.git](https://github.com/AnkitaMahajan1/Server-Load-Balancer.git)](https://github.com/AnkitaMahajan1/Server-Load-Balancer.git)
 Install Dependencies:
 cd server-load-balancer
 create a virtual environment
-cd to the virtual env and install below
+cd to the virtual env and install: 
 pip install flask, requests
 
 Start Backend Servers:
