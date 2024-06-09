@@ -1,5 +1,8 @@
 # Server-Load-Balancer
 Server Load Balancer is a simple Python application that acts as a load balancer for distributing incoming requests among multiple backend servers. It provides round-robin load balancing and health checks to ensure optimal performance and reliability.
+
+https://github.com/AnkitaMahajan1/Server-Load-Balancer/assets/61576746/cf9163f5-eb2a-4a38-bf1b-5259f88d663c
+
 Features
 🔄 Round-Robin Load Balancing: Requests are evenly distributed among the available backend servers using a round-robin algorithm.
 
