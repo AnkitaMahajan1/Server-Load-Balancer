@@ -20,22 +20,21 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/server-load-balancer.git
+git clone [https://github.com/yourusername/server-load-balancer.git](https://github.com/AnkitaMahajan1/Server-Load-Balancer.git)
 Install Dependencies:
-
-bash
-Copy code
 cd server-load-balancer
-pip install -r requirements.txt
-Start Backend Servers:
+create a virtual environment
+cd to the virtual env and install below
+pip install flask, requests
 
-Ensure that your backend servers are running on ports 5001, 5002, and 5003.
+Start Backend Servers:
+python backendServer.py
+python backendServer2.py
+Ensure that your backend servers are running on ports 5001, 5002, and 5003.(or any of these ports)
 
 Run the Load Balancer:
 
-bash
-Copy code
-python load_balancer.py --health-check-interval 10 --health-check-url /health
+python app.py --health-check-interval 10 --health-check-url /health
 This command starts the load balancer on port 80 and configures it to perform health checks every 10 seconds using the /health endpoint.
 
 Access the UI:
